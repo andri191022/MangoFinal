@@ -1,0 +1,9 @@
+--authapi
+add-migration addIdentityTables
+update-database
+
+--Product
+add-migration addProductAndSeedTable
+
+--shoppingcart
+add-migration AddShoppingCartTables
